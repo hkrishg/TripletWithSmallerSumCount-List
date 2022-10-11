@@ -41,7 +41,10 @@ class Main {
   }
 
   // Problem: Write a function to return the list of all such triplets instead of
-  // the count. How will the time complexity change in this case?
+  // // the count. How will the time complexity change in this case?
+
+  // [[-1, 0, 3], [-1, 0, 2]]
+  // [[-1, 1, 4], [-1, 1, 3], [-1, 1, 2], [-1, 2, 3]]
 
   public static List<List<Integer>> TripletListWithSmallerSum(int[] nums, int target) {
     List<List<Integer>> result = new ArrayList<>();
